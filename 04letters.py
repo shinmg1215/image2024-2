@@ -27,5 +27,5 @@ cv2.putText(img, "아름다운 강산 - 신명규", (50, 470), cv2.FONT_HERSHEY_
 
 
 cv2.imshow('draw text', img)
-cv2.waitKey()
+cv2.waitKey(0)
 cv2.destroyAllWindows()
